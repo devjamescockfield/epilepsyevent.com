@@ -277,9 +277,9 @@
             <div class="row">
                 <div class="col-md-12">
                     <ul class="social-buttons">
-                        <li><a href="discord.epilepsyevent.com" class="social-btn"><i class="fab fa-discord"></i></a></li>
-                        <li><a href="#" class="social-btn"><i class="fab fa-facebook"></i></a></li>
-                        <li><a href="#" class="social-btn"><i class="fa fa-envelope"></i></a></li>
+                        <li><a href="discord.epilepsyevent.com" target="_blank" class="social-btn"><i class="fab fa-discord"></i></a></li>
+                        <li><a href="#" target="_blank" class="social-btn"><i class="fab fa-facebook"></i></a></li>
+                        <li><a href="#" target="_blank" class="social-btn"><i class="fa fa-envelope"></i></a></li>
                     </ul>
                 </div>
             </div>
