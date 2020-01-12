@@ -233,13 +233,13 @@ Features
 /* ==========================================================================
 iPhone Section
 ========================================================================== */
-.iphone { width: 50%; background: #000000; float: left; height: 100%; box-shadow: inset -15px -11px 40px -6px #78299e; -moz-box-shadow: inset -15px -11px 40px -6px #78299e; -webkit-box-shadow: inset -15px -11px 40px -6px #78299e; z-index: 1; }
+.iphone { width: 50%; background: #fff; float: left; height: 100%; box-shadow: inset -15px -11px 40px -6px #78299e; -moz-box-shadow: inset -15px -11px 40px -6px #78299e; -webkit-box-shadow: inset -15px -11px 40px -6px #78299e; z-index: 1; }
 .fluid-white { width: 50%; background: #fff; float: right; height: 100%; z-index: 2; }
 .responsive-services { position: relative; }
 /* ==========================================================================
 Swag
 ========================================================================== */
-.swag { background: url('../img/hopeImg.jpg') no-repeat center center; -webkit-background-size: auto; -moz-background-size: auto; -o-background-size: auto; background-size: auto; background-attachment: fixed; padding: 50px 0; }
+.swag { padding: 50px 0; }
 .swag h1 { color: #000000; font-size: 40px; text-transform: uppercase; letter-spacing: 5px; }
 .swag h1 span { display: block; font-size: 25px; margin-top: 20px; }
 .down-arrow-btn { width: 40px; height: 40px; border-radius: 50%; -moz-border-radius: 50%; -webkit-border-radius: 50%; -o-border-radius: 50%; background: #78299e; display: inline-block; margin: 10px auto 20px; color: #fff; font-size: 16px; line-height: 40px; text-align: center; }

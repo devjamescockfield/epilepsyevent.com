@@ -8,7 +8,7 @@
                 </ul>-->
             </div>
             <div class="col-md-5 credit">
-                <p>© EpilepsyEvent 2020 | All Rights Reserved | Hosted by <a target="_blank" href="http://epilepsyevent.com/">Epilepsy Event</a> | Developed by <a target="_blank" href="https://cockersgaming.uk">Cockers Gaming</a></p>
+                <p>©EpilepsyEvent2020 | All Rights Reserved | Hosted by <a target="_blank" href="http://epilepsyevent.com/">Epilepsy Event</a> | Developed by <a target="_blank" href="https://cockersgaming.uk">Cockers Gaming</a></p>
             </div>
         </div>
     </div>
