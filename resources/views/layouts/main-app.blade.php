@@ -5,6 +5,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Epilepsy Event</title>
+        <link rel="icon" type="image/png" href="{{asset('img/epilepsyRibbon.png')}}">
         <link href='http://fonts.googleapis.com/css?family=Varela+Round' rel='stylesheet' type='text/css'>
         <link href="{{asset('css/bootstrap.min.css')}}" rel="stylesheet">
         <link href="{{asset('fontawesome/css/all.css')}}" rel="stylesheet">
