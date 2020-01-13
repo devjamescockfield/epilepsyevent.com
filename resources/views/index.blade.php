@@ -80,56 +80,56 @@
                                     <br>
                                     <h3>Epilepsy Event Discord</h3>
                                     <hr><br>
-                                    <a href="http://discord.epilepsyevent.com/"><i class="fab fa-discord fa-5x"></i></a>
+                                    <a target="_blank" href="http://discord.epilepsyevent.com/"><i class="fab fa-discord fa-5x"></i></a>
                                     <br>
                                 </li>
                                 <li>
                                     <br>
                                     <h3>HeartbeatUTH Discord</h3>
                                     <hr><br>
-                                    <a href="http://discord.heartbeatuth.com/"><i class="fab fa-discord fa-5x"></i></a>
+                                    <a target="_blank" href="http://discord.heartbeatuth.com/"><i class="fab fa-discord fa-5x"></i></a>
                                     <br>
                                 </li>
                                 <li>
                                     <br>
                                     <h3>ETS2C Link</h3>
                                     <hr><br>
-                                    <a href="https://ets2c.com/view/81940/yamyam-tartue-baltic"><i class="fas fa-link fa-5x"></i></a>
+                                    <a target="_blank" href="https://ets2c.com/view/81940/yamyam-tartue-baltic"><i class="fas fa-link fa-5x"></i></a>
                                     <br>
                                 </li>
                                 <li>
                                     <br>
                                     <h3>Facebook</h3>
                                     <hr><br>
-                                    <a href="https://www.facebook.com/EpilepsyEvent/"><i class="fab fa-facebook fa-5x"></i></a>
+                                    <a target="_blank" href="https://www.facebook.com/EpilepsyEvent/"><i class="fab fa-facebook fa-5x"></i></a>
                                     <br>
                                 </li>
                                 <li>
                                     <br>
                                     <h3>Donations</h3>
                                     <hr><br>
-                                    <a href="https://www.justgiving.com/fundraising/epilepsywareness2020"><i class="fas fa-donate fa-5x"></i></a>
+                                    <a target="_blank" href="https://www.justgiving.com/fundraising/epilepsywareness2020"><i class="fas fa-donate fa-5x"></i></a>
                                     <br>
                                 </li>
                                 <li>
                                     <br>
                                     <h3>Epilepsy Event Forum</h3>
                                     <hr><br>
-                                    <a href="https://forum.truckersmp.com/index.php?/topic/87448-28th-march-2020-epilespy-awareness/"><i class="fas fa-link fa-5x"></i></a>
+                                    <a target="_blank" href="https://forum.truckersmp.com/index.php?/topic/87448-28th-march-2020-epilespy-awareness/"><i class="fas fa-link fa-5x"></i></a>
                                     <br>
                                 </li>
                                 <li>
                                     <br>
                                     <h3>Twitch</h3>
                                     <hr><br>
-                                    <a href="https://www.twitch.tv/epilepsyevent"><i class="fab fa-twitch fa-5x"></i></a>
+                                    <a target="_blank" href="https://www.twitch.tv/epilepsyevent"><i class="fab fa-twitch fa-5x"></i></a>
                                     <br>
                                 </li>
                                 <li>
                                     <br>
                                     <h3>Twitter</h3>
                                     <hr><br>
-                                    <a href="https://twitter.com/EventEpilepsy"><i class="fab fa-twitter fa-5x"></i></a>
+                                    <a target="_blank" href="https://twitter.com/EventEpilepsy"><i class="fab fa-twitter fa-5x"></i></a>
                                     <br>
                                 </li>
                             </ul>
@@ -294,37 +294,6 @@
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
-    <section class="dark-bg text-center section-padding contact-wrap" id="contact">
-        <a href="#top" class="up-btn"><i class="fa fa-chevron-up"></i></a>
-        <div class="container">
-            <h1>Contact US Form</h1>
-            @if(Session::has('success'))
-                <div class="alert alert-success">
-                    {{ Session::get('success') }}
-                </div>
-            @endif
-            {!! Form::open(['route'=>'contactus.store']) !!}
-            <div class="form-group {{ $errors->has('name') ? 'has-error' : '' }}">
-                {!! Form::label('Name:') !!}
-                {!! Form::text('name', old('name'), ['class'=>'form-control', 'placeholder'=>'Enter Name']) !!}
-                <span class="text-danger">{{ $errors->first('name') }}</span>
-            </div>
-            <div class="form-group {{ $errors->has('email') ? 'has-error' : '' }}">
-                {!! Form::label('Email:') !!}
-                {!! Form::text('email', old('email'), ['class'=>'form-control', 'placeholder'=>'Enter Email']) !!}
-                <span class="text-danger">{{ $errors->first('email') }}</span>
-            </div>
-            <div class="form-group {{ $errors->has('message') ? 'has-error' : '' }}">
-                {!! Form::label('Message:') !!}
-                {!! Form::textarea('message', old('message'), ['class'=>'form-control', 'placeholder'=>'Enter Message']) !!}
-                <span class="text-danger">{{ $errors->first('message') }}</span>
-            </div>
-            <div class="form-group">
-                <button class="btn btn-success">Contact US!</button>
-            </div>
-            {!! Form::close() !!}
         </div>
     </section>
 @endsection

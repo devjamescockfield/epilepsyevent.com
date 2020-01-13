@@ -11,10 +11,31 @@
 |
 */
 
+Auth::routes(['verify' => true]);
+
 Route::get('/', function () {
     return view('index');
 });
 
 
-Route::get('contact-us', 'ContactUSController@contactUS');
-Route::post('contact-us', ['as'=>'contactus.store','uses'=>'ContactUSController@contactUSPost']);
+
+
+Auth::routes();
+
+Route::name('contact.')->group(function () {
+
+    Route::resource('contact-forms', 'ContactController');
+
+});
+
+Route::name('admin.')->group( function(){
+
+    Route::resource('contact', 'Admin\ContactFormsController')->middleware(['auth']);
+    Route::resource('staff', 'Admin\StaffController')->middleware(['auth']);
+
+    Route::resource('permissions', 'Admin\PermissionController')->middleware(['auth']);
+
+    Route::resource('roles', 'Admin\RoleController')->middleware(['auth']);
+
+    Route::resource('users', 'Admin\UsersController')->middleware(['auth']);
+});
