@@ -101,35 +101,35 @@
                                     <br>
                                     <h3>Facebook</h3>
                                     <hr><br>
-                                    <a href="https://ets2c.com/view/81940/yamyam-tartue-baltic"><i class="fab fa-facebook fa-5x"></i></a>
+                                    <a href="https://www.facebook.com/EpilepsyEvent/"><i class="fab fa-facebook fa-5x"></i></a>
                                     <br>
                                 </li>
                                 <li>
                                     <br>
                                     <h3>Donations</h3>
                                     <hr><br>
-                                    <a href="https://ets2c.com/view/81940/yamyam-tartue-baltic"><i class="fas fa-donate fa-5x"></i></a>
+                                    <a href="https://www.justgiving.com/fundraising/epilepsywareness2020"><i class="fas fa-donate fa-5x"></i></a>
                                     <br>
                                 </li>
                                 <li>
                                     <br>
                                     <h3>Epilepsy Event Forum</h3>
                                     <hr><br>
-                                    <a href="https://ets2c.com/view/81940/yamyam-tartue-baltic"><i class="fas fa-link fa-5x"></i></a>
+                                    <a href="https://forum.truckersmp.com/index.php?/topic/87448-28th-march-2020-epilespy-awareness/"><i class="fas fa-link fa-5x"></i></a>
                                     <br>
                                 </li>
                                 <li>
                                     <br>
                                     <h3>Twitch</h3>
                                     <hr><br>
-                                    <a href="https://ets2c.com/view/81940/yamyam-tartue-baltic"><i class="fab fa-twitch fa-5x"></i></a>
+                                    <a href="https://www.twitch.tv/epilepsyevent"><i class="fab fa-twitch fa-5x"></i></a>
                                     <br>
                                 </li>
                                 <li>
                                     <br>
                                     <h3>Twitter</h3>
                                     <hr><br>
-                                    <a href="https://ets2c.com/view/81940/yamyam-tartue-baltic"><i class="fab fa-twitter fa-5x"></i></a>
+                                    <a href="https://twitter.com/EventEpilepsy"><i class="fab fa-twitter fa-5x"></i></a>
                                     <br>
                                 </li>
                             </ul>
